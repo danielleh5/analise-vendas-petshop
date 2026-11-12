@@ -8,7 +8,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI">
   <img src="https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQL">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel">
 </p>
 
@@ -18,10 +17,9 @@ Um petshop quer entender seu desempenho comercial e operacional. A base tem **10
 
 O projeto seguiu o caminho completo de uma análise:
 
-1. **Preparação dos dados em Python**: leitura da planilha, tratamento e criação de uma tabela ponte para os produtos.
-2. **Respostas às perguntas de negócio em SQL**: 39 consultas organizadas em 9 temas.
-3. **Dashboard em Power BI**, com filtros por período, espécie, serviço, produto, pacote, status e perfil do cliente.
-4. **Análise executiva** com insights e recomendações práticas.
+1. **Respostas às perguntas de negócio em SQL**: 39 consultas organizadas em 9 temas.
+2. **Dashboard em Power BI**, com filtros por período, espécie, serviço, produto, pacote, status e perfil do cliente.
+3. **Análise executiva** com insights e recomendações práticas.
 
 Este repositório reúne os prints do dashboard e a explicação da análise.
 
