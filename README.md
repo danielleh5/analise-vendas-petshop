@@ -198,7 +198,7 @@ analise-vendas-petshop/
 
 - **Power BI** (Power Query, DAX e modelagem): dashboard interativo
 - **SQL** (SQLite): respostas às perguntas de negócio
-- **Python** (pandas): tratamento dos dados
+- **DAX** (Modelagem): Modelagem de dados 
 - **Excel**: base original
 
 ## 👩‍💻 Autora
