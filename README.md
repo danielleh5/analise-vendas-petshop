@@ -27,7 +27,7 @@ Este repositório reúne os prints do dashboard e a explicação da análise.
 
 ⚠️ Os dados são fictícios, criados para fins de estudo e portfólio.
 
-## 📊 Dashboard
+## Dashboard
 
 Desenvolvido no Power BI, o dashboard reúne a visão geral de vendas, serviços, produtos e pets em uma única página. Os prints abaixo mostram o mesmo painel filtrado por ano.
 
