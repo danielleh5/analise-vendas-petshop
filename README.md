@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel">
 </p>
 
-## 📌 Sobre o projeto
+## Sobre o projeto
 
 Um petshop quer entender seu desempenho comercial e operacional. A base tem **10.000 atendimentos** registrados entre janeiro de 2025 e maio de 2026, com dados de cliente, pet, serviço, pacote, produtos vendidos, desconto, pagamento, status e avaliação.
 
@@ -65,7 +65,7 @@ Desenvolvido no Power BI, o dashboard reúne a visão geral de vendas, serviços
 
 O ticket médio e a avaliação se mantêm estáveis de um ano para o outro. Em 2026, a cama pet segue como o produto que mais fatura, e a coleira sobe para o segundo lugar. No gráfico mensal de 2026, maio aparece mais baixo porque a base termina nesse mês.
 
-## 🎯 Principais números (base completa)
+## Principais números (base completa)
 
 | Indicador | Resultado |
 |---|---|
@@ -79,7 +79,7 @@ O ticket médio e a avaliação se mantêm estáveis de um ano para o outro. Em 
 | Vendas com desconto | 11,4% |
 | Avaliação média | 3,55 de 5 |
 
-## 💡 Principais insights
+## Principais insights
 
 ### 1. R$ 285 mil ficaram pelo caminho
 
@@ -111,7 +111,7 @@ A receita mensal oscila entre R$ 111 mil (junho/2025) e R$ 134 mil (janeiro/2026
 - **Formas de pagamento** estão bem distribuídas, cerca de 20% cada. Cartão de crédito tem a maior taxa de cancelamento (5,1%).
 - **Avaliação:** 17,7% das notas são 1 ou 2. A nota quase não muda com o valor da venda ou com as observações do atendimento, o que indica causas que a base ainda não registra.
 
-## 🚀 Recomendações
+## Recomendações
 
 | Prioridade | Ação | Por quê |
 |---|---|---|
@@ -122,7 +122,7 @@ A receita mensal oscila entre R$ 111 mil (junho/2025) e R$ 134 mil (janeiro/2026
 | 5 | Criar um programa de fidelidade para os 60 clientes que mais gastam | São 25% da base e geram quase um terço da receita |
 | 6 | Registrar o motivo das notas baixas | 17,7% de notas 1 e 2 sem causa visível nos dados atuais |
 
-## 🔧 Próximas melhorias no dashboard
+## Próximas melhorias no dashboard
 
 Este foi um dos meus primeiros dashboards analíticos. Revisando o painel junto com as consultas SQL, mapeei os ajustes da próxima versão:
 
@@ -132,7 +132,7 @@ Este foi um dos meus primeiros dashboards analíticos. Revisando o painel junto 
 - **Faturamento realizado:** incluir um card só com as vendas concluídas, separado do faturamento registrado.
 - **Medidas DAX dedicadas:** criar medidas para ticket médio, taxa de cancelamento e percentual de clientes novos, em vez de agregações automáticas.
 
-## 🗂️ Base de dados
+## Base de dados
 
 A planilha original tem cinco abas: Vendas_Petshop (10.000 linhas), Produtos (15), Pacotes (8), Dicionário e Resumo.
 
@@ -152,7 +152,7 @@ A planilha original tem cinco abas: Vendas_Petshop (10.000 linhas), Produtos (15
 
 **Tratamento aplicado:** os produtos de cada venda vêm juntos em um único campo (`1011;1012;1009`). Em Python, separei esses IDs e criei a tabela `venda_produtos`, com uma linha por produto vendido. Isso permitiu analisar produtos e combinações em SQL.
 
-## 🔎 Perguntas de negócio respondidas em SQL
+## Perguntas de negócio respondidas em SQL
 
 | Tema | Exemplos de perguntas |
 |---|---|
@@ -184,7 +184,7 @@ ORDER BY vendas_juntos DESC
 LIMIT 10;
 ```
 
-## 📁 Estrutura do repositório
+## Estrutura do repositório
 
 ```
 analise-vendas-petshop/
@@ -192,14 +192,14 @@ analise-vendas-petshop/
 └── README.md    # Explicação da análise, insights e recomendações
 ```
 
-## 🛠️ Ferramentas
+## Ferramentas
 
 - **Power BI** (Power Query, DAX e modelagem): dashboard interativo
 - **SQL** (SQLite): respostas às perguntas de negócio
 - **DAX** (Modelagem): Modelagem de dados 
 - **Excel**: base original
 
-## 👩‍💻 Autora
+## Autora
 
 **Danielle Honório Stevam** · Analista de Dados Jr
 
